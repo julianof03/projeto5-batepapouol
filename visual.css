@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eef9bf;
+}
+.all{
+    margin-top: 40px;
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 47px;
+}
+.titulo h1{
+
+ color: #75B79E;
+}
+.papagaio{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #99CEA8;
+    background-color: #A7E9AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 146px;
+}
+.papagaio img{
+    height: 100px;
+    width: 100px;
+}
+.game ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
