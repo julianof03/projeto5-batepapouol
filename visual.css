@@ -37,3 +37,11 @@ body{
     align-items: center;
     justify-content: center;
 }
+.frente{
+    background-color: brown;
+    transform: rotateY(180deg);
+}
+.verso {
+    background-color: blue;
+    transform: rotateY(0deg);
+}
