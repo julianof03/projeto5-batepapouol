@@ -5,6 +5,9 @@ body{
     background-color: #eef9bf;
 }
 .all{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-top: 40px;
 }
 .titulo{
@@ -18,6 +21,7 @@ body{
  color: #75B79E;
 }
 .papagaio{
+    transition: all 0.5s;
     border-radius: 5px;
     border-width: 1px;
     border-color: #99CEA8;
@@ -27,21 +31,30 @@ body{
     align-items: center;
     width: 117px;
     height: 146px;
+    margin: 41px;
 }
 .papagaio img{
     height: 100px;
     width: 100px;
 }
-.game ul{
+ul{
+    width: 800px;
+    height: 800px;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-.frente{
-    background-color: brown;
-    transform: rotateY(180deg);
+    align-items: center;
+    flex-wrap: wrap;
 }
 .verso {
-    background-color: blue;
     transform: rotateY(0deg);
+}
+.azul {
+    background-color: blue;
+}
+.rosa {
+    background-color: plum;
+}
+.frente {
+    background-color: #A7E9AF;
+    transform: rotateY(180deg);
 }
