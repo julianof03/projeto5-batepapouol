@@ -2,12 +2,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
     background-color: #eef9bf;
 }
 .all{
-    align-items: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 40px;
 }
 .titulo{
@@ -17,21 +18,23 @@ body{
     margin-bottom: 47px;
 }
 .titulo h1{
-
  color: #75B79E;
 }
 .papagaio{
-    transition: all 0.5s;
+    width: 117px;
+    height: 146px;
+    margin: 41px;
+
     border-radius: 5px;
     border-width: 1px;
     border-color: #99CEA8;
     background-color: #A7E9AF;
+    border-style: solid;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 117px;
-    height: 146px;
-    margin: 41px;
+    transition: all 0.5s;
 }
 .papagaio img{
     height: 100px;
@@ -39,14 +42,14 @@ body{
 }
 ul{
     width: 800px;
-    height: 800px;
+    transition: all 0.05s;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 .verso {
-    transform: rotateY(0deg);
 }
 .azul {
     background-color: blue;
@@ -57,4 +60,13 @@ ul{
 .frente {
     background-color: #A7E9AF;
     transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 600px) {
+ ul {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
 }
