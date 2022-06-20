@@ -21,6 +21,7 @@ body{
  color: #75B79E;
 }
 .papagaio{
+    position: relative;
     width: 117px;
     height: 146px;
     margin: 41px;
@@ -36,7 +37,17 @@ body{
     align-items: center;
     transition: all 0.5s;
 }
-.papagaio img{
+.papagaio .gif{
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+}
+.papagaio .foto{
+    position: absolute;
+    top: 18px;
+    left: 10px;
     height: 100px;
     width: 100px;
 }
@@ -50,6 +61,8 @@ ul{
     flex-wrap: wrap;
 }
 .verso {
+    transition: all 0.5s;
+   opacity: 0;
 }
 .azul {
     background-color: blue;
@@ -58,6 +71,7 @@ ul{
     background-color: plum;
 }
 .frente {
+    opacity: 1;
     background-color: #A7E9AF;
     transform: rotateY(180deg);
 }
