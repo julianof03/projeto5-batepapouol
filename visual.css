@@ -4,6 +4,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .all {
+    margin-top: 60px;
     font-family: 'Roboto', sans-serif;
     justify-content: center;
     width: 375px;
@@ -11,10 +12,25 @@ body{
     height: 685px;
 }
 .topbar{
+    position: relative;
     height: 80px;
     width: 375px;
     background-color: #FFFFFF;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -20px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.topbar ion-icon{
+    position: absolute;
+    height: 42px;
+    width: 42px;
+    right: 22px;
+    bottom: 24px;
+}
+.topbar img{
+    left: 22px;
+    bottom: 11px;
+    position: absolute;
+    height: 53px;
+    width: 75px;
 }
 .chat{
     width: 375px;
@@ -40,13 +56,35 @@ body{
 .passage{
 background-color: #DCDCDC;
 }
-.chatinput{
+.chatbar{
     font-style: italic;
     position: fixed;
-    bottom: 2px;
+    bottom: 0px;
     height: 80px;
     width: 371px;
     border-style: none;
     background-color: #FFFFFF;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 10px -10px, rgba(0, 0, 0, 0.3) 0px -5px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 7px -10px, rgba(0, 0, 0, 0.3) 0px -3px 7px -3px;
+}
+.chatinput{
+    font-style: italic;
+    height: 80px;
+    width: 290px;
+    border-style: none;
+}
+.chatinput:focus{
+    font-style: normal;
+    bottom: 2px;
+    outline-style: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #DCDCDC;
+}
+.chatbar ion-icon{
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    right: 27px;
+    bottom: 27px;
 }
