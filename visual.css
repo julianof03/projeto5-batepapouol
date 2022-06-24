@@ -1,86 +1,52 @@
 body{
     display: flex;
-    align-items: center;
     justify-content: center;
-
-    background-color: #eef9bf;
-}
-.all{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-}
-.titulo{
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 56px;
-    margin-bottom: 47px;
 }
-.titulo h1{
- color: #75B79E;
+.all {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    width: 375px;
+    background-color: #f3f3f3;
+    height: 685px;
 }
-.papagaio{
+.topbar{
+    height: 80px;
+    width: 375px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -20px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.chat{
+    width: 375px;
+    background-color: #f3f3f3;
+    height: 685px;
     position: relative;
-    width: 117px;
-    height: 146px;
-    margin: 41px;
-
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: #99CEA8;
-    background-color: #A7E9AF;
-    border-style: solid;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s;
 }
-.papagaio .gif{
-    position: absolute;
-    top: 18px;
-    left: 10px;
-    height: 100px;
-    width: 100px;
+.chat ul{
+    margin-top: 26px;
 }
-.papagaio .foto{
-    position: absolute;
-    top: 18px;
-    left: 10px;
-    height: 100px;
-    width: 100px;
+.chat ul li{
+    background-color: #FFFFFF;
 }
-ul{
-    width: 800px;
-    transition: all 0.05s;
+.listachat li div{
+    min-height: 40px;
+    margin-bottom: 4px;
+    margin-left: 6px;
 
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    flex-wrap: wrap;
 }
-.verso {
-    transition: all 0.5s;
-   opacity: 0;
+.passage{
+background-color: #DCDCDC;
 }
-.azul {
-    background-color: blue;
-}
-.rosa {
-    background-color: plum;
-}
-.frente {
-    opacity: 1;
-    background-color: #A7E9AF;
-    transform: rotateY(180deg);
-}
-
-@media only screen and (max-width: 600px) {
- ul {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    }
+.chatinput{
+    font-style: italic;
+    position: fixed;
+    bottom: 2px;
+    height: 80px;
+    width: 371px;
+    border-style: none;
+    background-color: #FFFFFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 10px -10px, rgba(0, 0, 0, 0.3) 0px -5px 7px -3px;
 }
