@@ -40,9 +40,11 @@ body{
 }
 .chat ul{
     margin-top: 26px;
+    line-break: all;
 }
 .chat ul li{
     background-color: #FFFFFF;
+    line-break: all;
 }
 .listachat li div{
     min-height: 40px;
@@ -52,6 +54,7 @@ body{
     display: flex;
     justify-content: left;
     align-items: center;
+    line-break: all;
 }
 .passage{
 background-color: #DCDCDC;
