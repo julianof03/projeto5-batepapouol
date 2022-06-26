@@ -1,8 +1,9 @@
-body{
+body {
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
 }
+
 .all {
     margin-top: 60px;
     font-family: 'Roboto', sans-serif;
@@ -11,45 +12,53 @@ body{
     background-color: #f3f3f3;
     height: 685px;
 }
-.topbar{
+
+.topbar {
     position: relative;
     height: 80px;
     width: 375px;
     background-color: #FFFFFF;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -20px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-.topbar ion-icon{
+
+.topbar ion-icon {
     position: absolute;
     height: 42px;
     width: 42px;
     right: 22px;
     bottom: 24px;
 }
-.topbar img{
+
+.topbar img {
     left: 22px;
     bottom: 11px;
     position: absolute;
     height: 53px;
     width: 75px;
 }
-.chat{
+
+.chat {
     width: 375px;
     max-width: 376px;
     background-color: #f3f3f3;
+    overflow-x: h;
     height: fit-content;
     overflow-y: scroll;
     overflow-wrap: break-word;
     position: relative;
     margin-bottom: 120px;
 }
-.chat ul{
+
+.chat ul {
     margin-top: 26px;
     margin-bottom: 80px;
 }
-.chat ul li{  
+
+.chat ul li {
     background-color: #FFFFFF;
 }
-.listachat li div{
+
+.listachat li div {
     min-height: 40px;
     margin-bottom: 4px;
     margin-left: 6px;
@@ -59,27 +68,31 @@ body{
     justify-content: left;
     align-items: center;
 }
-.passage{
-    
-background-color: #DCDCDC;
+
+.passage {
+
+    background-color: #DCDCDC;
 }
-.chatbar{
+
+.chatbar {
     font-style: italic;
     position: fixed;
     bottom: 0px;
     height: 80px;
-    width: 371px;
+    width: 375px;
     border-style: none;
     background-color: #FFFFFF;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 7px -10px, rgba(0, 0, 0, 0.3) 0px -3px 7px -3px;
 }
-.chatinput{
+
+.chatinput {
     font-style: italic;
     height: 80px;
     width: 290px;
     border-style: none;
 }
-.chatinput:focus{
+
+.chatinput:focus {
     font-style: normal;
     bottom: 2px;
     outline-style: none;
@@ -88,10 +101,19 @@ background-color: #DCDCDC;
     border-radius: 5px;
     border-color: #DCDCDC;
 }
-.chatbar ion-icon{
+
+.chatbar ion-icon {
     height: 26px;
     width: 26px;
     position: absolute;
     right: 27px;
     bottom: 27px;
+}
+
+.text {
+    margin-left: 8px;
+}
+
+.status {
+    background-color: #DCDCDC;
 }
