@@ -34,29 +34,33 @@ body{
 }
 .chat{
     width: 375px;
+    max-width: 376px;
     background-color: #f3f3f3;
-    height: 685px;
+    height: fit-content;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
     position: relative;
+    margin-bottom: 120px;
 }
 .chat ul{
     margin-top: 26px;
-    line-break: all;
+    margin-bottom: 80px;
 }
-.chat ul li{
+.chat ul li{  
     background-color: #FFFFFF;
-    line-break: all;
 }
 .listachat li div{
     min-height: 40px;
     margin-bottom: 4px;
     margin-left: 6px;
 
+    overflow-wrap: break-word;
     display: flex;
     justify-content: left;
     align-items: center;
-    line-break: all;
 }
 .passage{
+    
 background-color: #DCDCDC;
 }
 .chatbar{
